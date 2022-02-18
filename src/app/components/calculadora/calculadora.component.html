@@ -1,0 +1,15 @@
+
+<br>
+Primeiro Valor: <input type="text"
+[(ngModel)]="value1"/>
+Segundo Valor: <input type="text"
+[(ngModel)]="value2" />
+
+Operador: <select #classe [(ngModel)]="conta" (change)="execute(conta)">
+  <option value="soma">Soma</option>
+    <option value="sub">Sub</option>
+    <option value="mult">Multiplicação</option>
+    <option value="div">Divisão</option>
+  </select>
+
+<p>Resultado: {{result}}</p>

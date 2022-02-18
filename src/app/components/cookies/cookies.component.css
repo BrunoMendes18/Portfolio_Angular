@@ -1,0 +1,24 @@
+.contaner{
+  position:fixed;
+  bottom: -25vh;
+  height:25vh;
+  background-color:grey;
+  width:100vw;
+  display:flex;
+  align-items:center;
+  align-content:space-around;
+  justify-content:space-around;
+  animation-name:subir;
+  animation-duration:2s;
+  animation-fill-mode: forwards;
+}
+
+#cookie{
+  width: 25px;
+}
+
+@keyframes subir{
+  from{bottom:-25vh;}
+  to{bottom:0}
+}
+
